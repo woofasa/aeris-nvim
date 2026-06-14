@@ -10,8 +10,9 @@ local aeris = {
   fg         = "#f0f0f0", -- чистый белый
   fg_muted   = "#787878",
   fg_subtle  = "#525252",
-  fg_ghost   = "#303030", -- Акценты
+  fg_ghost   = "#303030",
 
+  -- Акценты
   pink       = "#F2BAC9",
   red        = "#F2A0A8",
   aqua       = "#BAF2E9",

@@ -8,6 +8,7 @@ function M.set(aeris)
   groups = vim.tbl_extend("force", groups, require("aeris.groups.treesitter").load(aeris))
   groups = vim.tbl_extend("force", groups, require("aeris.groups.snacks").load(aeris))
   groups = vim.tbl_extend("force", groups, require("aeris.groups.neotree").load(aeris))
+  groups = vim.tbl_extend("force", groups, require("aeris.groups.lsp").load(aeris))
   for group, opts in pairs(groups) do
     vim.api.nvim_set_hl(0, group, opts)
   end
